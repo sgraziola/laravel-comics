@@ -34,9 +34,20 @@ main{
         background-color: $secondary_color;
         color: $light;
 
+        .comic_jumbo {
+            height: 400px;
+        
+            img {
+                height: inherit;
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
         .m_neg {
             align-items: center;
             margin-top: -1.5rem;
+
             
             .main_btn{
                 background-color: $primary_color;
