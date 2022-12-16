@@ -2,6 +2,9 @@
 
 @section('content')
 
-<h1> Videos </h1>
+<div class="container">
+    <h1> Videos </h1>
+
+</div>
 
 @endsection
