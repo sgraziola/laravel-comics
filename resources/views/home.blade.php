@@ -3,7 +3,8 @@
 @section('content')
 <div class="container">
 
-    <h1> Welcome to DC Comics</h1>
+    <h1>{{$title}}</h1>
+    <p>{{$intro}}</p>
 </div>
 
 @endsection

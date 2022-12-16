@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="{{ Vite::asset('resources/img/favicon.ico')}}" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dc Comics @yield('title', 'Home')</title>
+    <title>Dc Comics</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -17,7 +19,7 @@
 
 <body>
     @include('partials.header')
-    <main>
+    <main id="site_main">
         @include('partials.jumbotron')
         @yield('content')
     </main>
