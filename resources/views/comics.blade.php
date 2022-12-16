@@ -24,5 +24,42 @@
         <button class="main_btn btn_reg shadow mb-4"><a href="#">LOAD MORE</a></button>
     </div>
 </div>
+<section class="call_to_action py-5">
+    <div class="container">
+        <div class="row row-cols-5">
+            <div class="col d-flex align-items-center justify-content-evenly">
+                <a href="#" class="d-flex align-items-center">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">
+                    <h6>DIGITAL COMICS</h6>
+                </a>
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-evenly">
+                <a href="#" class="d-flex align-items-center">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="">
+                    <h6>DC MERCHANDISE</h6>
+                </a>
+            </div>
+            <div class="col d-flex align-items-center justify-content-evenly">
+                <a href="#" class="d-flex align-items-center">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="">
+                    <h6>SUBSCRIPTION</h6>
+                </a>
+            </div>
+            <div class="col d-flex align-items-center justify-content-evenly">
+                <a href="#" class="d-flex align-items-center">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="">
+                    <h6>COMIC SHOP LOCATOR</h6>
+                </a>
+            </div>
+            <div class="col d-flex align-items-center justify-content-evenly">
+                <a href="#" class="d-flex align-items-center">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
+                    <h6>DC POWER VISA</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 @endsection

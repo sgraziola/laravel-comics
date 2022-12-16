@@ -84,6 +84,22 @@ main{
                 }
             }
         }
+        .call_to_action {
+            background-color: $primary_color;
+            a{
+                text-decoration: none;
+                column-gap: 0.5rem;
+            
+                h6 {
+                    color: $light;
+                }
+        
+                img {
+                    width: 50px;
+                }
+        
+            }
+        }
 }
 footer{
     .footer_top {
